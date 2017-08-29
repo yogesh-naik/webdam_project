@@ -21,7 +21,7 @@ public class Test_DataProvider {
 
 		String line = "";
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/java/com/ebay/api/tests/util/test_getItemScenario.json")));
+			BufferedReader reader = new BufferedReader(new FileReader(new File("src//api/tests/util/test_getItemScenario.json")));
 			StringBuilder jsonString = new StringBuilder();
 			while ((line = reader.readLine()) != null) {
 				jsonString.append(line);
