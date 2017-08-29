@@ -2,8 +2,8 @@
 	"data": 
 	[
 		{
-			"ItemId":"190007839742",
-			"Site":"EBAY-US",			
+			"ItemId":"1900742",
+			"Site":"web_US",			
 			"Scenario":"TAX",
 			"SKU_ID":"SKU_Re_L_29",
 			"isContextualLocationOn":"true"
