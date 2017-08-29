@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API Test Suite" parallel="true" thread-count="5">
+	<test name="webdam_tests">
+		<groups>
+			<run>
+				<!-- In Progress -->
+				<include name="All" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.webdam.test" />
+		</packages>
+	</test>
+
+</suite>
